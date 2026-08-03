@@ -1,0 +1,33 @@
+name: Runner Cost Comparison Demo
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  run-linux:
+    name: Run on Linux
+    runs-on: ubuntu-latest
+    steps:
+      - name: Work step
+        run: |
+          echo "Running on Linux (2-core x64)..."
+          sleep 60
+
+  run-windows:
+    name: Run on Windows
+    runs-on: windows-latest
+    steps:
+      - name: Work step
+        run: |
+          echo "Running on Windows (2-core x64)..."
+          Start-Sleep -Seconds 60
+
+  run-macos:
+    name: Run on macOS
+    runs-on: macos-latest
+    steps:
+      - name: Work step
+        run: |
+          echo "Running on macOS (3-core M1 / M2)..."
+          sleep 60
