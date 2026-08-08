@@ -1,0 +1,2 @@
+*.js @kk-security/backend
+/api/ @kk-security/backend
