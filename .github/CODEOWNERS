@@ -1,3 +1,3 @@
-*.js @lab-engineering
-/api/ @lab-engineering
+*.js @kk-security/lab-engineering/backend
+/api/ @kk-security/lab-engineering
 
