@@ -1,2 +1,2 @@
-*.js @kk-security/backend
+*.js @engineering/backend
 /api/ @kk-security/backend
